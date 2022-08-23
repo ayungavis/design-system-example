@@ -1,5 +1,5 @@
 {
-  "name": "design-system-example",
+  "name": "@ayungavis/design-system-example",
   "version": "0.0.1",
   "description": "Create a design system (component library) for React",
   "main": "dist/cjs/index.js",
@@ -13,6 +13,9 @@
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ayungavis"
   },
   "repository": {
     "type": "git",
