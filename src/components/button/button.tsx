@@ -12,7 +12,7 @@ const StyledButton = styled.button<ButtonProps>((props) => {
           border: "1px solid #264653",
           color: "#fff",
           "&:hover": {
-            backgroundColor: "rgba(205, 180, 219, 0.9)",
+            backgroundColor: "#172a32",
             color: "#fff",
           },
         };
