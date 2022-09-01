@@ -1,6 +1,6 @@
 {
   "name": "@ayungavis/design-system-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Create a design system (component library) for React",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist && rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -48,11 +48,14 @@
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "0.0.13",
     "@types/react": "^18.0.17",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "babel-loader": "^8.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.78.1",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.8.2"
   },
   "dependencies": {
